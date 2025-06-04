@@ -52,7 +52,7 @@ export default function ContactPage() {
   return (
     <main className="overflow-hidden">
       {/* Hero Section */}
-      <section className="relative flex flex-col items-center justify-center text-center py-32 px-4 sm:px-8 bg-gradient-to-b from-blue-50 dark:from-gray-900 to-transparent min-h-[60vh]">
+      <section className="relative flex flex-col items-center justify-center text-center py-20 sm:py-32 px-4 sm:px-8 bg-gradient-to-b from-blue-50 dark:from-gray-900 to-transparent min-h-[50vh] sm:min-h-[60vh]">
         <div className="absolute inset-0 overflow-hidden">
           <Image
             src="https://images.unsplash.com/photo-1551434678-e076c223a692"
@@ -68,10 +68,10 @@ export default function ContactPage() {
           transition={{ duration: 0.8 }}
           className="relative z-10 max-w-4xl"
         >
-          <h1 className="text-4xl sm:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
+          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-4 sm:mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
             Get in Touch
           </h1>
-          <p className="text-lg sm:text-xl mb-8 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 max-w-2xl mx-auto">
             Ready to transform your business with AI? Let&apos;s discuss how we
             can help you achieve your goals.
           </p>
@@ -79,16 +79,18 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Form Section */}
-      <section className="max-w-7xl mx-auto py-32 px-4 sm:px-8">
-        <div className="grid md:grid-cols-2 gap-16 items-start">
+      <section className="max-w-7xl mx-auto py-16 sm:py-32 px-4 sm:px-8">
+        <div className="grid md:grid-cols-2 gap-8 sm:gap-16 items-start">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl font-bold mb-6">Contact Us</h2>
-            <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
+            <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">
+              Contact Us
+            </h2>
+            <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 mb-6 sm:mb-8">
               Fill out the form below and we&apos;ll get back to you within 24
               hours.
             </p>
@@ -105,7 +107,7 @@ export default function ContactPage() {
             )}
             <form
               onSubmit={handleSubmit}
-              className="space-y-6"
+              className="space-y-4 sm:space-y-6"
               aria-label="Contact form"
             >
               <div className="group">
@@ -200,7 +202,7 @@ export default function ContactPage() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="relative h-[600px] rounded-2xl overflow-hidden shadow-xl"
+            className="relative h-[400px] sm:h-[600px] rounded-2xl overflow-hidden shadow-xl mt-8 md:mt-0"
           >
             <Image
               src="https://images.unsplash.com/photo-1551434678-e076c223a692"
@@ -209,21 +211,21 @@ export default function ContactPage() {
               className="object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-            <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
-              <h2 className="text-2xl font-bold mb-4">
+            <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-8 text-white">
+              <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">
                 Let&apos;s Build Something Amazing
               </h2>
-              <p className="mb-6">
+              <p className="mb-4 sm:mb-6 text-sm sm:text-base">
                 Schedule a call with our team to discuss your project
                 requirements.
               </p>
-              <div className="space-y-4">
+              <div className="space-y-3 sm:space-y-4">
                 <a
-                  href="mailto:singhbalr1@gmail.com"
-                  className="inline-flex items-center gap-2 text-white hover:text-blue-200 transition-colors"
+                  href="mailto:info@codecraftbyfranzyn.com"
+                  className="inline-flex items-center gap-2 text-white hover:text-blue-200 transition-colors text-sm sm:text-base"
                 >
                   <svg
-                    className="w-5 h-5"
+                    className="w-4 h-4 sm:w-5 sm:h-5"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -235,11 +237,11 @@ export default function ContactPage() {
                       d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                     />
                   </svg>
-                  singhbalr1@gmail.com
+                  info@codecraftbyfranzyn.com
                 </a>
-                <div className="flex items-center gap-2 text-white/80">
+                <div className="flex items-center gap-2 text-white/80 text-sm sm:text-base">
                   <svg
-                    className="w-5 h-5"
+                    className="w-4 h-4 sm:w-5 sm:h-5"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"

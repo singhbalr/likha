@@ -31,7 +31,7 @@ export default function Home() {
             and unlock intelligence using tailored AI tools.
           </p>
           <motion.a
-            href="mailto:singhbalr1@gmail.com"
+            href="mailto:info@codecraftbyfranzyn.com"
             className="inline-flex items-center gap-2 bg-blue-600 text-white rounded-full px-8 py-3 font-semibold shadow-lg hover:bg-blue-700 focus:outline focus:outline-2 focus:outline-blue-500 transition-colors text-lg"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -193,7 +193,7 @@ export default function Home() {
               business goals
             </p>
             <motion.a
-              href="mailto:singhbalr1@gmail.com"
+              href="mailto:info@codecraftbyfranzyn.com"
               className="inline-flex items-center gap-2 bg-blue-600 text-white rounded-full px-8 py-3 font-semibold shadow-lg hover:bg-blue-700 focus:outline focus:outline-2 focus:outline-blue-500 transition-colors text-lg"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}

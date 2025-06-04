@@ -53,7 +53,7 @@ export default function ClientLayout({
           </ul>
           <div className="flex gap-2 items-center">
             <a
-              href="mailto:singhbalr1@gmail.com"
+              href="mailto:info@codecraftbyfranzyn.com"
               className="bg-blue-600 text-white rounded-full px-4 py-2 font-semibold shadow hover:bg-blue-700 focus:outline focus:outline-2 focus:outline-blue-500 transition-colors"
               aria-label="Email us"
             >
@@ -70,10 +70,10 @@ export default function ClientLayout({
         </div>
         <div className="flex gap-4 items-center">
           <a
-            href="mailto:singhbalr1@gmail.com"
+            href="mailto:info@codecraftbyfranzyn.com"
             className="underline hover:text-blue-600 focus:outline focus:outline-2 focus:outline-blue-500"
           >
-            singhbalr1@gmail.com
+            info@codecraftbyfranzyn.com
           </a>
           <span className="hidden md:inline">|</span>
           <Link
