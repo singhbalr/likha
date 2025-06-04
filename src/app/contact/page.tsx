@@ -32,7 +32,7 @@ export default function ContactPage() {
         message: "Thank you for your message! We'll get back to you soon.",
       });
       setFormData({ name: "", company: "", email: "", message: "" });
-    } catch (error) {
+    } catch {
       setStatus({
         type: "error",
         message: "Something went wrong. Please try again later.",
